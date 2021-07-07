@@ -1,5 +1,8 @@
 <template>
-    <div class="subtree">这是subtree文件</div>
+    <div class="subtree">
+        <p>这是subtree</p>
+        <p>父仓库修改</p>
+    </div>
 </template>
 
 <script>
