@@ -15,11 +15,11 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
-  // {
-  //   path: '/subtree',
-  //   name: 'Subtree',
-  //   component: () => import('../views/subtree/subtree.vue')
-  // }
+  {
+    path: '/subtree',
+    name: 'Subtree',
+    component: () => import('../views/subtree/subtree.vue')
+  }
 ]
 
 const router = createRouter({
